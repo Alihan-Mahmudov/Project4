@@ -10,6 +10,3 @@ class Hero_super(Hero):
         print(f"{self.name} it is super hero")
     def __str__(self):
         return f"{self.name} it is super hero"
-
-hero=Hero_super('alihan')
-hero.name_hero()
